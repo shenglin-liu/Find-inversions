@@ -32,7 +32,7 @@ l.window: Sliding window size; default is fine unless the genome assembly is ver
 l.step: Sliding step; default is fine unless the genome assembly is very fragmented.
 fst.threshold: VERY IMPORTANT!!! FST threshold; FST higher than this will be removed.
 minRange: Minimum size of an inversion.
-minInter: Minimum distance between neighboring informative SNPs (those giving rectangular peaks); if two SNPs have less than this distance, only one will be used for inerence, but both will be reported in the result. 
+minInter: Minimum distance between neighboring informative SNPs (those giving rectangular peaks); if two SNPs have less than this distance, only one will be used for inerence, but both will be reported in the result.
 minSnps: Minimum number of informative SNPs for an inversion; should be no less than 3.
 f.output: The name of the output file.
 
