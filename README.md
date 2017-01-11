@@ -23,7 +23,9 @@ Accuracy of the allele frequency estimates: The higher the better; it requires d
 Download the R script to the working directory of your R session. Modify the "Parameters" section according to your need. Run the script using source() function. Here are some guidelines about how to set the parameters.
 
 f.vcf: Name of the VCF file.
+
 f.popmap: Name of the popmap file.
+
 referencePop: Name of the population used for defining the non-inverted haplotype; it is arbitrary.
 n.digit: Number of digits to be kept in calculating allele frequencies; VERY IMPORTANT, but the default (4) is fine unless you have very big sample sizes.
 n.nonZeroPop: A SNP must be polymorphic in at least this number of populations, otherwise it will be filtered out; SNPs showing polymorphism in very few populations can easily cause false positive.
