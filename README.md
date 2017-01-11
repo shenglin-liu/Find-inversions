@@ -27,15 +27,25 @@ f.vcf: Name of the VCF file.
 f.popmap: Name of the popmap file.
 
 referencePop: Name of the population used for defining the non-inverted haplotype; it is arbitrary.
+
 n.digit: Number of digits to be kept in calculating allele frequencies; VERY IMPORTANT, but the default (4) is fine unless you have very big sample sizes.
+
 n.nonZeroPop: A SNP must be polymorphic in at least this number of populations, otherwise it will be filtered out; SNPs showing polymorphism in very few populations can easily cause false positive.
+
 lowFreq: VERY IMPORTANT!!! SNPs with overall frequency lower than this will be removed.
+
 l.window: Sliding window size; default is fine unless the genome assembly is very fragmented.
+
 l.step: Sliding step; default is fine unless the genome assembly is very fragmented.
+
 fst.threshold: VERY IMPORTANT!!! FST threshold; FST higher than this will be removed.
+
 minRange: Minimum size of an inversion.
+
 minInter: Minimum distance between neighboring informative SNPs (those giving rectangular peaks); if two SNPs have less than this distance, only one will be used for inerence, but both will be reported in the result.
+
 minSnps: Minimum number of informative SNPs for an inversion; should be no less than 3.
+
 f.output: The name of the output file.
 
 # Output
