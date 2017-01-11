@@ -16,7 +16,9 @@ The algorithm is based on FST calculation. But the roles of populations and SNPs
 The accuracy of the analysis is mainly influenced by the following factors.
 
 Number of populations: The more the better; minimum is three.
+
 Heterogeneity of the frequency of the inverted haplotype across the populations: The higher the better.
+
 Accuracy of the allele frequency estimates: The higher the better; it requires decent sample sizes and high quanlity of SNP calling.
 
 # Instructions
