@@ -54,4 +54,4 @@ f.output: The name of the output file.
 The output file enlists the detected inversions in blocks separated by two empty lines. Each block contains the inversions detected in a chromosome. Each inversion is specified by starting with the starting position and ending positing of the inversion. A table follows listing the informative SNPs (those giving rectangular peaks) in the inversion and giving the frequency of the inverted copy.
 
 # Citation
-Liu S, Ferchaud AL, Groenkjaer P, Nygaard R, Hansen MM (2017) Differences in genomic parallelism in contrasting systems of three-spine sticklebacks. In press.
+Liu S, Ferchaud AL, Groenkjaer P, Nygaard R, Hansen MM (2017) Differences in genomic parallelism in contrasting systems of three-spine sticklebacks. Submitted.
