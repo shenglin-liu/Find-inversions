@@ -19,7 +19,7 @@ Number of populations: The more the better; minimum is three.
 
 Heterogeneity of the frequency of the inverted haplotype across the populations: The higher the better.
 
-Accuracy of the allele frequency estimates: The higher the better; it requires decent sample sizes and high quanlity of SNP calling.
+Accuracy of the allele frequency estimates: The higher the better; it requires decent sample sizes and high quality of SNP calling.
 
 # Instructions
 Download the R script to the working directory of your R session. Modify the "Parameters" section according to your need. Run the script using source() function. Here are some guidelines about how to set the parameters.
