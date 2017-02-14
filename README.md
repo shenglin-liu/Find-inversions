@@ -58,7 +58,7 @@ When the subject species has heteromorphic sex chromosomes, it is better to excl
 
 If the input VCF file is from whole genome sequencing, it is better to take a random subset (e.g., 2%) of the SNPs. It will increase the speed dramatically, and it would not compromise the quality of the analysis (at least under most circumstances). Besides, the script reads in the VCF file as one single table. Therefore, it cannot handle too big a VCF file (but the script can be adjusted to allow handling big VCF files).
 
-When the SNP density is very high (e.g., data from whole genome sequencing), the analysis will normally report a lot of short inversions under the default parameter setting. Increase the value for minRange (e.g., 200000). Then the short inversions will be gone.
+When the SNP density is very high (e.g., data from whole genome sequencing), the analysis will normally report a lot of short inversions under the default parameter setting. Increase the value for minRange (e.g., 200000) and minSnps (e.g., 5). Then the short inversions will be gone.
 
 For each inversion detected, check the neighboring distances of the informative SNPs. If they are too large, it might be a false positive.
 
