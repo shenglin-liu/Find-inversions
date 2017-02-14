@@ -53,5 +53,16 @@ f.output: The name of the output file.
 # Output
 The output file enlists the detected inversions in blocks separated by two empty lines. Each block contains the inversions detected in a chromosome. Each inversion is specified by starting with the starting position and ending positing of the inversion. A table follows listing the informative SNPs (those giving rectangular peaks) in the inversion and giving the frequency of the inverted copy.
 
+# Suggestions
+When the subject species has heteromorphic sex chromosomes, it is better to exclude the sex chromosome out of the analysis. Otherwise, the non-recombining regions of the sex chromosome will be reported as giant inversions, and it will slow down the speed of the analysis.
+
+If the input VCF file is from whole genome sequencing, it is better to take a random subset (e.g., 2%) of the SNPs. It will increase the speed dramatically, and it would not compromise the quality of the analysis (at least under most circumstances). Besides, the script reads in the VCF file as one single table. Therefore, it cannot handle too big a VCF file (but the script can be adjusted to allow handling big VCF files).
+
+When the SNP density is very high (e.g., data from whole genome sequencing), the analysis will normally report a lot of short inversions under the default parameter setting. Increase the value for minRange. Then the short inversions will be gone.
+
+For each inversion detected, check the neighboring distances of the informative SNPs. If they are too large, it might be a false positive.
+
+Toggle with lowFreq and fst.threshold to find values that suit your data better.
+
 # Citation
 Liu S, Ferchaud AL, Groenkjaer P, Nygaard R, Hansen MM (2017) Genomic parallelism and lack thereof: Determinants inferred from contrasting systems of three-spine sticklebacks. Submitted.
