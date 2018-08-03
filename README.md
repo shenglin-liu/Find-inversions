@@ -65,4 +65,4 @@ For each inversion detected, check the neighboring distances of the informative 
 Toggle with lowFreq and fst.threshold to find values that suit your data better.
 
 # Citation
-Liu S, Ferchaud AL, Groenkjaer P, Nygaard R, Hansen MM (2017) Genomic parallelism and lack thereof: Determinants inferred from contrasting systems of three-spine sticklebacks. Submitted.
+Liu S, Ferchaud AL, Groenkjaer P, Nygaard R, Hansen MM (2018) Genomic parallelism and lack thereof in contrasting systems of three-spine sticklebacks. Molecular Ecology, Vol. 27 (in press).
